@@ -157,6 +157,8 @@ handleRating(changeEvent) {
     rating: parseInt(changeEvent.target.value)
   });
 }
+  
+//Se debería crear un componente aparte para manejar los comentarios, así se moduraliza más el código y sería más fácil de manejar y entender.
   render() {
     const question = this.props.question;
     const classes = `comments row`;
