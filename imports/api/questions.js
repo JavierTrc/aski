@@ -3,6 +3,8 @@ import { Mongo } from "meteor/mongo";
 import { check } from "meteor/check";
 import SimpleSchema from "simpl-schema";
 
+//Faltan algunos test que prueben que los componentes de React Renderizan correctamente.
+//El botón de inicio de sesión puede mejorarse, la letra es muy pequeña y el color de fondo no contrasta bien con la imagen de fondo.
 
 const countryOptSchema = new SimpleSchema({
   countryCode: String,
