@@ -3,6 +3,9 @@ import { Mongo } from "meteor/mongo";
 import { check } from "meteor/check";
 import SimpleSchema from "simpl-schema";
 
+// muy bueno los de definir esquemas.
+// por limpieza del codigo deberian solo usar o comillas simples
+// o dobles en vez de mezclarlas
 
 const countryOptSchema = new SimpleSchema({
   countryCode: String,
