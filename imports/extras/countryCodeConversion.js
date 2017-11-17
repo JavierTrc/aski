@@ -1,3 +1,8 @@
+// muy buena organización para los country code
+// una idea tambien podría ser cargar los datos
+// de entrada de alguna base de datos o archivo
+// ajeno al codigo para que modificar algo no
+// signifique un nuevo push y deployment
 const countryCodeDict = {
 	AF:"AFG",
 	AL:"ALB",
